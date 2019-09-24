@@ -1,12 +1,8 @@
-/* STYLING */
-
 body {
   background-color: #eceef1;
-  font-size: 12px;
-  line-height: 1.5;
-  margin: 0;
-  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+  font: 12px/1.5 AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
+  margin: 0;
 }
 div {
   display: block;
@@ -14,8 +10,6 @@ div {
 a {
   color: #0077c5;
 }
-
-/* NAV */
 nav {
   padding: 10px 30px;
   width: 100%;
@@ -52,15 +46,13 @@ nav button .white-lock-img {
   margin-right: 4px;
   vertical-align: text-top;
   display: inline-block;
-  background-image: url("../img/whitelock-icon.png");
+  background: url("../img/whitelock-icon.png") no-repeat;
   background-size: contain;
-  background-repeat: no-repeat;
-  color: white;
+  color: #fff;
   cursor: pointer;
   font-size: 1.125em;
   font-weight: normal;
 }
-/* HEADER */
 .main-header {
   padding: 20px 0;
   text-align: center;
@@ -74,11 +66,8 @@ header .main-logo {
   width: 118px;
   height: 35px;
   opacity: 1;
-  background-position: 0 0;
-  background-image: url("../img/ecosystem_logos_new.png");
+  background: url("../img/ecosystem_logos_new.png") 0 0;
 }
-/* MAIN */
-
 main .widget-container {
   padding: 0;
   margin: auto;
@@ -98,26 +87,22 @@ main .signup-logo-container {
   width: 100%;
   text-align: center;
 }
-
 main .bottom-logo {
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
   padding-inline-start: 40px;
   font-size: 0;
   height: 23px;
   width: 318px;
-  margin: 0 auto;
-  margin-bottom: 15px;
-  text-align: center;
+  margin: 0 auto 15px;
   position: relative;
   white-space: nowrap;
   display: block;
   text-align: center;
   padding: 0;
 }
-
 main .mint-favicon {
   width: 23px;
   height: 23px;
@@ -171,7 +156,6 @@ main .turbotax-text {
   margin-right: 0;
   left: 0;
 }
-
 .signup-wrapper {
   background-color: #fff;
   border: 1px solid #c7c7c7;
@@ -208,8 +192,6 @@ header .sub-header-link {
   color: #0077c5;
   font-size: 12px;
 }
-
-/* FIELDSET EMAIL */
 fieldset {
   display: block;
   margin: 0;
@@ -235,7 +217,6 @@ fieldset {
   line-height: 25px;
   padding-bottom: 6px;
 }
-
 .email-input {
   border: 1px solid #c1c5c8;
   border-radius: 3px;
@@ -259,7 +240,6 @@ fieldset {
   display: block;
   min-height: 20px;
 }
-/* FIELDSET MOBILE PHONE */
 .fieldset-mobile-phone {
   min-height: 115px;
 }
@@ -271,7 +251,6 @@ fieldset {
   padding-bottom: 6px;
   display: block;
 }
-
 .tel-input {
   padding-left: 8px;
   border: 1px solid #c1c5c8;
@@ -285,7 +264,6 @@ fieldset {
   padding-right: 6px;
   height: 34px;
 }
-
 .sms-warning {
   padding: 5px 0;
   font-size: 10px;
@@ -304,7 +282,6 @@ fieldset {
   display: block;
   min-height: 20px;
 }
-/* FIELDSET PASSWORD */
 .fieldset-password {
   line-height: 1.5;
   text-align: left;
@@ -319,13 +296,11 @@ fieldset {
   text-align: left;
 }
 .password-input {
-  font-family: Arial, sans-serif;
+  font: 1.2em/1.3em Arial, sans-serif;
   border: 1px solid #c1c5c8;
   border-radius: 3px;
-  line-height: 1.3em;
   color: #000;
   outline: 0;
-  font-size: 1.2em;
   width: 320px;
   min-width: 160px;
   padding-left: 8px;
@@ -351,7 +326,6 @@ fieldset {
   display: block;
   min-height: 20px;
 }
-/* SUBMIT FORM */
 .signup-actions {
   padding-bottom: 30px;
 }
@@ -385,9 +359,8 @@ fieldset {
   margin-right: 4px;
   vertical-align: text-top;
   display: inline-block;
-  background-image: url("../img/whitelock-icon.png");
+  background: url("../img/whitelock-icon.png") no-repeat;
   background-size: contain;
-  background-repeat: no-repeat;
   line-height: 1.428571429;
   white-space: nowrap;
 }
@@ -398,7 +371,6 @@ fieldset {
 .spacing {
   margin-top: 11px;
 }
-/* FOOTER */
 .footer-container {
   text-align: center;
   display: block;
@@ -413,7 +385,6 @@ fieldset {
   color: #757575;
   font-size: 12px;
 }
-
 .captcha-container {
   background-color: #eceef1;
   margin: 32px -30px -30px;
@@ -441,10 +412,8 @@ fieldset {
 .main-footer-contents {
   color: #505050;
 }
-
 .link-container {
   padding-top: 5px;
-
   display: block;
   list-style: none;
   font-size: 0;
@@ -453,7 +422,6 @@ fieldset {
 .dark {
   color: #505050;
 }
-
 .link-container li {
   font-size: 12px;
   display: inline-block;
@@ -461,12 +429,7 @@ fieldset {
 .inline:not(:first-child) {
   padding-left: 10px;
 }
-
 .main-footer-copyright {
   color: #505050;
   padding-bottom: 0;
-}
-.signup-copy-container {
-}
-.signup-copy-message {
 }
