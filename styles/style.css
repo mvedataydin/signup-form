@@ -1,1 +1,472 @@
 /* STYLING */
+
+body {
+  background-color: #eceef1;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+div {
+  display: block;
+}
+a {
+  color: #0077c5;
+}
+
+/* NAV */
+nav {
+  padding: 10px 30px;
+  width: 100%;
+  height: 60px;
+}
+nav .nav-container {
+  font-weight: 400;
+  color: #505050;
+  float: right;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: left;
+}
+nav .nav-column {
+  float: left;
+  margin-left: 10px;
+  text-align: right;
+}
+nav .nav-sign-in {
+  height: 34px;
+  padding: 0 20px;
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.125em;
+  font-weight: normal;
+}
+nav button .white-lock-img {
+  height: 1em;
+  width: 0.8em;
+  margin-top: 2px;
+  margin-right: 4px;
+  vertical-align: text-top;
+  display: inline-block;
+  background-image: url("../img/whitelock-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  cursor: pointer;
+  font-size: 1.125em;
+  font-weight: normal;
+}
+/* HEADER */
+.main-header {
+  padding: 20px 0;
+  text-align: center;
+}
+header .logo-container {
+  list-style: none;
+}
+header .main-logo {
+  margin: 0 auto;
+  display: block;
+  width: 118px;
+  height: 35px;
+  opacity: 1;
+  background-position: 0 0;
+  background-image: url("../img/ecosystem_logos_new.png");
+}
+/* MAIN */
+
+main .widget-container {
+  padding: 0;
+  margin: auto;
+}
+main .signup-logo-header {
+  padding-bottom: 4px;
+  padding-top: 0;
+  height: 80%;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+main .signup-logo-container {
+  margin: 0 auto;
+  list-style: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+main .bottom-logo {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  font-size: 0;
+  height: 23px;
+  width: 318px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  text-align: center;
+  position: relative;
+  white-space: nowrap;
+  display: block;
+  text-align: center;
+  padding: 0;
+}
+
+main .mint-favicon {
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+  margin-right: 4px;
+  position: relative;
+  background: url("../img/mint-favicon.svg") no-repeat;
+  left: 0;
+}
+main .mint-text {
+  display: inline-block;
+  background: url("../img/mint-text.svg") no-repeat;
+  width: 37px;
+  height: 20px;
+  margin-right: 9px;
+  left: 0;
+}
+main .quickbooks-favicon {
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+  margin-right: 4px;
+  position: relative;
+  background: url("../img/quickbooks-favicon.svg") no-repeat;
+  left: 0;
+}
+main .quickbooks-text {
+  display: inline-block;
+  position: relative;
+  background: url("../img/quickbooks-text.svg") no-repeat;
+  width: 98px;
+  height: 22px;
+  margin-right: 9px;
+  left: 0;
+}
+main .turbotax-favicon {
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+  margin-right: 4px;
+  position: relative;
+  background: url("../img/turbotax-favicon.svg") no-repeat;
+  left: 0;
+}
+main .turbotax-text {
+  display: inline-block;
+  position: relative;
+  background: url("../img/turbotax-text.svg") no-repeat;
+  width: 74px;
+  height: 22px;
+  margin-right: 0;
+  left: 0;
+}
+
+.signup-wrapper {
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  margin: auto;
+  overflow: visible;
+  padding: 30px;
+  width: 380px;
+  height: 89%;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+.sign-up {
+  display: block;
+}
+.header-container {
+  text-align: center;
+  padding-bottom: 20px;
+  width: 318px;
+}
+header .header {
+  color: #4c4c4c;
+  line-height: 1.1;
+  font-size: 24px;
+}
+.sub-header {
+  display: block;
+  color: #4c4c4c;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+  padding-top: 20px;
+}
+header .sub-header-link {
+  color: #0077c5;
+  font-size: 12px;
+}
+
+/* FIELDSET EMAIL */
+fieldset {
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  text-align: left;
+}
+.text-input-container {
+  position: relative;
+  width: 320px;
+  min-width: 160px;
+  height: 34px;
+}
+.fieldset-email {
+  display: block;
+  text-align: left;
+}
+.label-email {
+  display: block;
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+  padding-bottom: 6px;
+}
+
+.email-input {
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+  line-height: 1.3em;
+  color: #000;
+  outline: 0;
+  font-size: 1.2em;
+  width: 320px;
+  min-width: 160px;
+  padding-left: 8px;
+  padding-right: 6px;
+  height: 34px;
+}
+.error-email {
+  color: #eb3432;
+  word-wrap: break-word;
+  line-height: 1.2em;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  min-height: 20px;
+}
+/* FIELDSET MOBILE PHONE */
+.fieldset-mobile-phone {
+  min-height: 115px;
+}
+.label-mobile {
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+  padding-bottom: 6px;
+  display: block;
+}
+
+.tel-input {
+  padding-left: 8px;
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+  line-height: 1.3em;
+  color: #000;
+  outline: 0;
+  font-size: 1.2em;
+  width: 320px;
+  min-width: 160px;
+  padding-right: 6px;
+  height: 34px;
+}
+
+.sms-warning {
+  padding: 5px 0;
+  font-size: 10px;
+  color: #444;
+  text-align: left;
+  line-height: 1.5;
+  display: block;
+}
+.error-mobile-phone {
+  color: #eb3432;
+  word-wrap: break-word;
+  line-height: 1.2em;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  min-height: 20px;
+}
+/* FIELDSET PASSWORD */
+.fieldset-password {
+  line-height: 1.5;
+  text-align: left;
+}
+.label-password {
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+  padding-bottom: 6px;
+  display: block;
+  text-align: left;
+}
+.password-input {
+  font-family: Arial, sans-serif;
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+  line-height: 1.3em;
+  color: #000;
+  outline: 0;
+  font-size: 1.2em;
+  width: 320px;
+  min-width: 160px;
+  padding-left: 8px;
+  padding-right: 6px;
+  height: 34px;
+}
+.password-lock {
+  background: url(../img/leftlock-icon.png) 0 50%/21px 21px no-repeat;
+  width: 33px;
+  position: absolute;
+  right: 1px;
+  height: 32px;
+  top: 1px;
+  bottom: 1px;
+}
+.error-password {
+  color: #eb3432;
+  word-wrap: break-word;
+  line-height: 1.2em;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  min-height: 20px;
+}
+/* SUBMIT FORM */
+.signup-actions {
+  padding-bottom: 30px;
+}
+.submit-button {
+  background: #0077c5;
+  border: #0077c5;
+  border-radius: 4px;
+  text-transform: capitalize;
+  width: 100%;
+  height: 44px;
+  text-shadow: none;
+  color: #fff;
+  font-weight: 400;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+  min-width: 100px;
+  display: inline-block;
+  padding: 6px 12px;
+  line-height: 1.428571429;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 15.75px;
+}
+.submit-whitelock {
+  height: 1em;
+  width: 0.8em;
+  margin-top: 2px;
+  margin-right: 4px;
+  vertical-align: text-top;
+  display: inline-block;
+  background-image: url("../img/whitelock-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  line-height: 1.428571429;
+  white-space: nowrap;
+}
+.submit-text {
+  line-height: 1.428571429;
+  white-space: nowrap;
+}
+.spacing {
+  margin-top: 11px;
+}
+/* FOOTER */
+.footer-container {
+  text-align: center;
+  display: block;
+}
+.terms-of-use {
+  font-style: italic;
+  color: #757575;
+  font-size: 12px;
+}
+.toe-text {
+  font-style: italic;
+  color: #757575;
+  font-size: 12px;
+}
+
+.captcha-container {
+  background-color: #eceef1;
+  margin: 32px -30px -30px;
+  padding: 16px;
+  text-align: center;
+  display: block;
+}
+.captcha {
+  font-size: 10px;
+  color: #8d9096;
+}
+.captcha-text {
+  font-size: 10px;
+  color: #8d9096;
+}
+.main-footer {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 12px;
+  padding: 20px 0;
+  text-align: center;
+  display: block;
+  height: 89%;
+}
+.main-footer-contents {
+  color: #505050;
+}
+
+.link-container {
+  padding-top: 5px;
+
+  display: block;
+  list-style: none;
+  font-size: 0;
+  text-align: center;
+}
+.dark {
+  color: #505050;
+}
+
+.link-container li {
+  font-size: 12px;
+  display: inline-block;
+}
+.inline:not(:first-child) {
+  padding-left: 10px;
+}
+
+.main-footer-copyright {
+  color: #505050;
+  padding-bottom: 0;
+}
+.signup-copy-container {
+}
+.signup-copy-message {
+}

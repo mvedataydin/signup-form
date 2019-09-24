@@ -1,26 +1,200 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <link rel="icon" href="#" />
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" type="text/css" href="./styles/normalize.css" />
-  <link rel="stylesheet" type="text/css" href="./styles/reset.css" />
-  <link rel="stylesheet" type="text/css" href="./styles/style.css" />
-  <link rel="icon" href="#">
+    <title>Inuit Accounts - Sign Up</title>
+  </head>
 
-  <title>Inuit Accounts - Sign Up</title>
-</head>
-
-<body>
-  <header>
-    <nav>
-    </nav>
-  </header>
-  <main>
+  <body>
     <section>
+      <nav>
+        <div class="nav-container">
+          <div class="nav-column">
+            <div>Already have an Intuit account?</div>
+            <a class="account-recovery"> I forgot my User ID or Password</a>
+          </div>
+          <div class="nav-column">
+            <button class="nav-sign-in">
+              <span class="white-lock-img"></span> Sign In
+            </button>
+          </div>
+        </div>
+      </nav>
+      <header class="main-header">
+        <div class="logo-container"><a class="main-logo"></a></div>
+      </header>
+      <main class="main-container">
+        <div class="widget-container">
+          <div class="signup-widget">
+            <div clasS="signup-logos">
+              <header class="signup-logo-header">
+                <div class="signup-logo-container">
+                  <ul class="bottom-logo">
+                    <li class="mint-favicon"></li>
+                    <li class="mint-text"></li>
+                    <li class="quickbooks-favicon"></li>
+                    <li class="quickbooks-text"></li>
+                    <li class="turbotax-favicon"></li>
+                    <li class="turbotax-text"></li>
+                  </ul>
+                </div>
+              </header>
+            </div>
+            <div class="signup-wrapper">
+              <section class="sign-up">
+                <header class="header-container">
+                  <span class="header">Create an Intuit account</span>
+                  <span class="sub-header">
+                    <span class="sub-header-prompt">
+                      <div>
+                        One account for everything Intuit, including Mint.
+                        <a class="sub-header-link">Learn more</a>
+                      </div>
+                    </span>
+                  </span>
+                </header>
+                <form
+                  class="form-sign-up"
+                  action="#"
+                  method="POST"
+                  autocomplete="off"
+                  validate
+                >
+                  <fieldset class="fieldset-email">
+                    <label class="label-email" for="email-i"
+                      >Email address</label
+                    >
+                    <div class="text-input-container">
+                      <input
+                        id="email-i"
+                        class="email-input"
+                        type="email"
+                        maxlength="100"
+                        autocomplete="off"
+                        aria-required="required"
+                        required
+                      />
+                    </div>
+                    <span
+                      class="error-email"
+                      for="email-i"
+                      aria-live="assertive"
+                      role="alert"
+                    ></span>
+                  </fieldset>
+                  <fieldset class="fieldset-mobile-phone">
+                    <label class="label-mobile" for="mobile-i">
+                      Phone (recommended)
+                    </label>
+                    <div class="text-input-container">
+                      <div class="tel-input-container">
+                        <input
+                          id="mobile-i"
+                          class="tel-input"
+                          type="tel"
+                          maxlength="30"
+                        />
+                      </div>
+                      <span class="sms-warning"
+                        >Standard call, messaging or data rates may apply.
+                      </span>
+                    </div>
+                    <span
+                      class="error-mobile-phone"
+                      for="mobile-i"
+                      aria-live="assertive"
+                      role="alert"
+                    ></span>
+                  </fieldset>
+                  <fieldset class="fieldset-password">
+                    <label class="label-password" for="password-i">
+                      Password
+                    </label>
+                    <div class="text-input-container">
+                      <input
+                        id="password-i"
+                        class="password-input"
+                        type="password"
+                        maxlength="50"
+                        aria-required="required"
+                        autocomplete="new-password"
+                        required
+                      />
+                      <span class="password-lock"></span>
+                    </div>
+                    <span
+                      class="error-password"
+                      for="password-i"
+                      aria-live="assertive"
+                      role="alert"
+                    ></span>
+                  </fieldset>
+                  <div class="signup-actions">
+                    <button class="submit-button" type="submit" name="SignUp">
+                      <span class="submit-whitelock"></span>
+                      <span class="submit-text">Create account</span>
+                    </button>
+                    <div class="spacing"></div>
+                  </div>
+                </form>
+                <footer class="footer-container">
+                  <span class="terms-of-use">
+                    <span class="toe-text">
+                      By clicking
+                      <span class="toe-button-name">Create Account</span> , you
+                      agree to our <br />
+                      <a class="ink-terms-of-use" href="#">Terms</a>
+                      <span class="sign-up-consent"
+                        >&nbsp;and have read and acknowledge our&nbsp;</span
+                      >
+                      <a class="privacy-statement-link" href="#"
+                        >Privacy Statement</a
+                      >.
+                    </span>
+                  </span>
+                </footer>
+              </section>
+              <section class="captcha-container">
+                <span class="captcha">
+                  <span class="captcha-text"
+                    >Invisible reCAPTCHA by Google
+                    <a class="captcha-policy" href="#">Privacy Policy</a>
+                    <span class="signup-consent">&nbsp;and&nbsp;</span>
+                    <a class="captcha-terms" href="#">Terms of Use</a>.
+                  </span>
+                </span>
+              </section>
+            </div>
+            <footer class="main-footer">
+              <div class="main-footer-contents">
+                <div class="main-footer-links">
+                  <ul class="link-container">
+                    <li class="inline"><a class="dark">Legal</a></li>
+                    <li class="inline"><a class="dark">Privacy</a></li>
+                    <li class="inline"><a class="dark">Security</a></li>
+                  </ul>
+                </div>
+                <div class="main-footer-copyright">
+                  <span class="signup-copy-container">
+                    <span class="signup-copy-message"
+                      >© 2019 Intuit, Inc. All rights reserved. Intuit,
+                      QuickBooks, QB, TurboTax, ProConnect and Mint are
+                      registered trademarks of Intuit Inc.</span
+                    ><br />
+                    Terms and conditions, features, support, pricing, and
+                    service options subject to change without notice.
+                  </span>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </main>
     </section>
-  </main>
-  <footer></footer>
-</body>
-
+  </body>
 </html>
